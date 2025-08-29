@@ -1,11 +1,10 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-    class Student{
-    int rollno;
-    char name[50];
-    double fee;
+   class Student{
+   int rollno;
+   char name[50];
+   double fee;
     
     public:
     Student(){
@@ -22,8 +21,10 @@ int main(){
         cout<<"\nFee: "<<fee;
     }
 };
+int main(){
     Student s;
     s.disp();
     return 0;
 }
     
+
